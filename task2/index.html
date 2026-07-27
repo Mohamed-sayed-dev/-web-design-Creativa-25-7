@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" >
+        <fieldset ><legend>task2</legend>
+      <div>
+        <label>First Name:</label>
+        <input
+          type="text"
+          name="firstName"
+          pattern="[A-Za-z]{3,5}"
+          title="Please enter a valid first name (3-5 letters)"
+          required
+        />
+      </div>
+      <div>
+        <label>Email:</label>
+        <input type="email" name="email" required />
+      </div>
+      <div>
+        <label>Password:</label>
+        <input
+          type="password"
+          name="password"
+          pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,}(!@#$%^&*()-+)"
+          title="Password must be at least 8 characters"
+          required
+        />
+      </div>
+      <div>
+        <label>Mobile:</label>
+        <input
+          type="tel"
+          name="mobile"
+          pattern="(010|011|012|015)[0-9]{8}"
+          title="رقم مصري مكون من 11 رقم ويبدأ بـ 010 أو 011 أو 012 أو 015"
+          required
+        />
+      </div>
+      <div>
+        <label> Select with filter data list:</label>
+        <input list="cities" id="city" name="city" />
+        <datalist id="cities">
+          <option value="القاهرة"></option>
+          <option value="الإسكندرية"></option>
+          <option value="الجيزة"></option>
+          <option value="الشرقية"></option>
+        </datalist>
+      </div>
+      <div>
+        range:
+        <input
+          type="range"
+          id="rangeVal"
+          name="rangeVal"
+          min="300"
+          max="500"
+          value="0"
+        />
+      </div>
+      <div>
+        <label for="address">العنوان (حروف فقط):</label><br />
+        <input
+          type="text"
+          id="address"
+          name="address"
+          pattern="[A-Za-zآ-ي\s]+"
+          title="address"
+          required
+        />
+      </div>
+      <div>
+        <label for="userImage">الصورة الشخصية (ملف PNG فقط):</label><br>
+        <input 
+          type="file" 
+          id="userImage" 
+          name="userImage" 
+          accept=".png" 
+          required>
+      </div>
+      <div>
+        <button type="submit">Submit</button><br>
+        <button type="reset">Reset</button>
+      </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
