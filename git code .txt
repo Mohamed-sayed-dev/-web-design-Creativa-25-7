@@ -1,0 +1,14 @@
+# 1. تغيير رابط الـ origin للرابط الجديد
+git remote set-url origin https://github.com/Mohamed-sayed-dev/-web-design-Creativa-25-7.git
+
+# 2. إضافة الفولدر اللي عاوز ترفعه (استبدل folder-name باسم الفولدر بتاعك)
+git add task
+
+# 3. حفظ التغييرات
+git commit -m "task"
+
+# 4. التأكد من اسم الفرع انه main
+git branch -M main
+
+# 5. الرفع على جيت هاب
+git push -u origin main
