@@ -1,0 +1,107 @@
+/* Reset basic margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e5e0eb; /* لون الخلفية الفاتحة المائل للبنفسجي */
+    color: #333;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Main Section Style */
+.main-content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.main-content h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Red underline */
+.line {
+    width: 60px;
+    height: 3px;
+    background-color: #e74c3c;
+    margin: 10px auto 20px auto;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+/* Cards Container */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Circular Icons Style */
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #e7833c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto;
+    font-size: 28px;
+    color: #e74c3c;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.4;
+}
