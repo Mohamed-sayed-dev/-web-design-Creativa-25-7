@@ -1,0 +1,178 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+.box{
+  box-shadow: 0 10px 25px
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-around{
+    justify-content:space-around;
+}
+.justfiy-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.a-nav{
+    display: flex;
+gap: 20px;
+}
+
+.get-starded{
+    background-color: orange;
+    width: 90px;
+    height: 30px;
+    border: none;   
+}
+.form{
+    display: flex;
+    gap: 20px;
+}
+.join-us{
+    background-color: aliceblue;
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+.bg-imge{
+    background-image: url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80%;
+   height: 600px; 
+}
+.parent{
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+}
+.in-text{
+    font-size: 25px;
+}
+.in-button{
+    font-size: 25px;
+    background-color: rgb(255, 136, 0);
+}
+.h4{
+display: flex;
+}
+.scroll-down{
+
+    writing-mode: vertical-rl;
+}
+.left-element{
+    float: left;
+}
+.right-element{
+    float: right;
+    background-color: orange;
+    margin: -88px 0 0 0;
+}
+.center{
+    Float :right;
+    
+}
+.card{
+    justify-content: flex-start;
+}
+.w-40{
+    width: 40%;
+}
+.bg-gray{
+    background-color: gray;
+}
+
+.box-itme{
+    width: 130px;
+    height: 104px;
+    text-align: center;
+}
+.m-r{
+    margin-right: 53px;
+}
+.p-15{
+    padding-top: 15px;
+}
+.bg-img{
+    background-color: rgb(201, 201, 201);
+display: block;
+}
+.small-img{
+    width: 150px;
+  height: 150px;
+  
+}
+.color-orange{
+    color:orange;
+}
+.jastify{
+    justify-content: center;
+}
+.j-s {
+  justify-items: start;
+}
+.w-30{
+   width :30%;
+}
+.w-20{
+    width: 20%;
+    justify-content: space-between;
+}
+.card-itme{
+  background: #ffffff;
+  padding: 20px 20px;
+  width: 20%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-number{
+   position: absolute;
+  top: -45px;
+  left: 0;
+  font-size: 140px;
+  font-weight: 800;
+  color: #1f303a;
+  line-height: 1;
+  pointer-events: none;
+}
+.row-gap-20{
+ row-gap: 20px;
+}
+.align-self-end{
+align-self: flex-end;
+}
+.w-100{
+    width: 100%;
+}
+.text-align{
+    text-align:center;
+  gap: 20px;
+  object-position: top center;
+
+}
+.w-100{
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
