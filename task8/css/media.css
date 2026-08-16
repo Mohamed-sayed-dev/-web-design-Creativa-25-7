@@ -1,0 +1,59 @@
+@media (max-width: 768.98px) {
+    .container {
+        width: 90%;
+    }
+
+    .feature-card {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .illustration-card {
+        width: 100%;
+    }
+
+    .overlap-card {
+        width: 92%;
+    }
+
+    .card-item {
+        width: 48%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        width: 95%;
+    }
+
+    .card-img, 
+    .half-width, 
+    .feature-card, 
+    .sub-card, 
+    .card-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sub-card-wrapper {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .overlap-card {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        transform: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .banner-wrapper {
+        padding-bottom: 5%;
+    }
+}

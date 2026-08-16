@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 5% 0%;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.bg-teal {
+    background-color: #234d4e;
+}
+
+.bg-pink {
+    background-color: #fdebe4;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.margin-auto {
+    margin: 0 auto 15px auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.nav-links a, .footer-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-primary {
+    background-color: #234d4e;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.img-gallery {
+    margin-top: 30px;
+}
+
+.card-img {
+    width: 48%;
+}
+
+.half-width {
+    width: 48%;
+}
+
+.content-padding {
+    padding: 0 20px;
+}
+
+.feature-card {
+    width: 30%;
+}
+
+.illustration-card {
+    width: 30%;
+}
+
+.icon-box {
+    background-color: #d89b6c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.icon-small {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.list-item {
+    margin-top: 15px;
+}
+
+.sub-card-wrapper {
+    margin-top: 25px;
+}
+
+.sub-card {
+    width: 48%;
+}
+
+.banner-wrapper {
+    padding-bottom: 120px;
+}
+
+.banner-card-bg {
+    background-image: url(../imgs/\(6\)6ffa38c75963c1395d4cd22dd87078f89d5c9065.jpg);
+    color: #fff;
+    padding: 60px 40px 100px 40px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.overlap-card {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    color: #333;
+}
+
+.card-item {
+    width: 23%;
+}
+
+.icon-circle {
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto 10px auto;
+    font-size: 12px;
+}
