@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="fixed-top navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">🐾paws n'play</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav px-3">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+          <a class="nav-link" href="#">services</a>
+        </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="btn btn-light rounded-pill px-4 py-2 fw-semibold text-dark ms-auto"
+          >
+            Get Started
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="">
+      <img class="w-100" src="./img/nav1.png" alt="" />
+    </div>
+
+    <section class="container">
+      <div>
+        <h1>Shop</h1>
+        <hr />
+      </div>
+      <div class="row g-4 align-items-center mb-4">
+        <div class="col-8 col-md-10 ">
+          <h1>🐾 Lorem, ipsum.</h1>
+        </div>
+        <div class="col-4 col-md-2 text-end">
+          <input
+            class="form-control rounded-pill border-0 bg-secondary-subtle px-3"
+            type="search"
+            placeholder="search"
+          />
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center gap-3">
+        <button
+          type="button"
+          class="btn btn-outline-dark border-0 rounded-3 px-3 py-2 fw-semibold"
+        >
+          Random
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-dark border-0 rounded-3 px-3 py-2 fw-semibold"
+        >
+          Cat
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-dark border-0 rounded-3 px-3 py-2 fw-semibold"
+        >
+          Dogs
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-dark border-0 rounded-3 px-3 py-2 fw-semibold"
+        >
+          Fish
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-dark border-0 rounded-3 px-3 py-2 fw-semibold"
+        > 
+          Birds
+        </button>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded-3">
+            <img class="w-100 rounded" src="./img/img(1).png" alt="" />
+
+            <div
+              class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-3 text-white"
+            >
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">₦15,000.00</span>
+                <i class="bi bi-heart fs-5"></i>
+              </div>
+              <div class="text-center">
+                <h5 class="fw-bold mb-1">Multivitamin For Cat</h5>
+                <p class="small mb-0 text-white-50">
+                  Lorem ipsum dolor sit amet consectetur. Vitae donec
+                  pellentesque ut eget tempor egestas diam.
+                </p>
+              </div>
+              <div class="d-flex justify-content-center gap-2">
+                <div
+                  class="btn-group bg-dark border border-secondary rounded-3"
+                >
+                  <button type="button" class="btn btn-sm text-white px-2">
+                    +
+                  </button>
+                  <span class="btn btn-sm text-white disabled px-2">1</span>
+                  <button type="button" class="btn btn-sm text-white px-2">
+                    -
+                  </button>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-sm rounded-3 px-3 fw-semibold"
+                >
+                  Add to card
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded-3">
+            <img class="w-100 rounded-2" src="./img/img(2).png" alt="" />
+
+            <div
+              class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-3 text-white"
+            >
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">₦15,000.00</span>
+                <i class="bi bi-heart fs-5"></i>
+              </div>
+              <div class="text-center">
+                <h5 class="fw-bold mb-1">Cat Food</h5>
+                <p class="small mb-0 text-white-50">
+                  Lorem ipsum dolor sit amet consectetur. Vitae donec
+                  pellentesque ut eget tempor egestas diam.
+                </p>
+              </div>
+              <div class="d-flex justify-content-center gap-2">
+                <div
+                  class="btn-group bg-dark border border-secondary rounded-3"
+                >
+                  <button type="button" class="btn btn-sm text-white px-2">
+                    +
+                  </button>
+                  <span class="btn btn-sm text-white disabled px-2">1</span>
+                  <button type="button" class="btn btn-sm text-white px-2">
+                    -
+                  </button>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-sm rounded-3 px-3 fw-semibold"
+                >
+                  Add to card
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded-3">
+            <img class="w-100 rounded-2" src="./img/img(3).png" alt="" />
+
+            <div
+              class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-between p-3 text-white"
+            >
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold fs-5">₦15,000.00</span>
+                <i class="bi bi-heart fs-5"></i>
+              </div>
+              <div class="text-center">
+                <h5 class="fw-bold mb-1">Dog Food</h5>
+                <p class="small mb-0 text-white-50">
+                  Lorem ipsum dolor sit amet consectetur. Vitae donec
+                  pellentesque ut eget tempor egestas diam.
+                </p>
+              </div>
+              <div class="d-flex justify-content-center gap-2">
+                <div
+                  class="btn-group bg-dark border border-secondary rounded-3"
+                >
+                  <button type="button" class="btn btn-sm text-white px-2">
+                    +
+                  </button>
+                  <span class="btn btn-sm text-white disabled px-2">1</span>
+                  <button type="button" class="btn btn-sm text-white px-2">
+                    -
+                  </button>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-sm rounded-3 px-3 fw-semibold"
+                >
+                  Add to card
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container my-4">
+      <div>
+        <h1 class="text-capitalize">🐾services</h1>
+        <hr />
+      </div>
+      <div class="row border p-3 g-2">
+  <div class="col-12 col-lg-6">
+    <div class="row g-2">
+      <div class="col-6 position-relative">
+        <img
+          class="img-fluid rounded-3 w-100 object-fit-cover"
+          style="height: 220px"
+          src="./img/image 1.png"
+          alt="Grooming"
+        />
+        <h3 class="position-absolute top-50 start-50 translate-middle text-white fw-bold m-0">Grooming</h3>
+      </div>
+
+      
+      <div class="col-6 position-relative">
+        <img
+          class="img-fluid rounded-3 w-100 object-fit-cover"
+          style="height: 220px"
+          src="./img/image 2.3.png"
+          alt="Boarding"
+        />
+        <h3 class="position-absolute top-50 start-50 translate-middle text-white fw-bold m-0">Boarding</h3>
+      </div>
+
+      <div class="col-6 position-relative">
+        <img
+          class="img-fluid rounded-3 w-100 object-fit-cover"
+          style="height: 220px"
+          src="./img/image 2.3.png"
+          alt="Veterinary"
+        />
+        <h3 class="position-absolute top-50 start-50 translate-middle text-white fw-bold m-0">Veterinary</h3>
+      </div>
+
+    
+      <div class="col-6 position-relative">
+        <img
+          class="img-fluid rounded-3 w-100 object-fit-cover"
+          style="height: 220px"
+          src="./img/image 4.png"
+          alt="Training"
+        />
+        <h3 class="position-absolute top-50 start-50 translate-middle text-white fw-bold m-0">Training</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-6 position-relative mt-2 mt-lg-0" style="min-height: 300px;">
+    <img
+      class="img-fluid rounded-3 w-100 h-100 object-fit-cover position-absolute top-0 start-0"
+      src="./img/image 5.png"
+      alt="Adoption"
+    />
+    <h3 class="position-absolute top-50 start-50 translate-middle text-white fw-bold m-0" style="z-index: 2;">Adoption</h3>
+  </div>
+</div>
+    </section>
+    <section class="container">
+      <div>
+        <h1>🐾 Our Team</h1>
+        <hr />
+        <div class="row border g-3">
+          <div class="col-12 col-sm-6 col-lg-3 text-center">
+            <img class="img-fluid mb-2" src="./img/images 1.png" alt="" />
+            <h2>Dr.Olivia Rhye</h2>
+            <p>Lorem, ipsum.</p>
+            <span>🐦 𝕏 󠁩󠁩𓃑 in 🌐</span>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 text-center">
+            <img class="img-fluid mb-2" src="./img/images 2.png" alt="" />
+            <h2>Phoenix Baker</h2>
+            <p>Lorem, ipsum.</p>
+            <span>🐦 𝕏 󠁩󠁩𓃑 in 🌐</span>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 text-center">
+            <img class="img-fluid mb-2" src="./img/images 3.png" alt="" />
+            <h2>Lana Steiner</h2>
+            <p>Lorem, ipsum.</p>
+            <span>🐦 𝕏 󠁩󠁩𓃑 in 🌐</span>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 text-center">
+            <img class="img-fluid mb-2" src="./img/images 4.png" alt="" />
+            <h2>Demi Wilkinson</h2>
+            <p>Lorem, ipsum.</p>
+            <span>🐦 𝕏 󠁩󠁩𓃑 in 🌐</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div>
+        <h1>🐾Blog</h1>
+        <hr />
+      </div>
+      <div class="row g-4 align-items-center">
+        <div class="col-6col-12 col-lg-6"">
+          <h1>Milestone:20,000 Pets Treated</h1>
+          <hr />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            esse quo cum voluptatem, quis eaque id eligendi adipisci autem
+            dolorem eum, vero reprehenderit. Minima modi nisi ducimus minus
+            doloremque aspernatur? Lorem Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ut, nobis deserunt neque cum aperiam, error,
+            reiciendis eaque alias aspernatur facilis non? Voluptatum, vel! Ipsa
+            nobis dolores cupiditate minima mollitia quo! ipsum dolor, sit amet
+            consectetur adipisicing elit. Exercitationem molestias, explicabo
+            similique facere, quis, cumque maiores temporibus error nihil quae
+            quo atque fugit. Illum blanditiis quaerat quis, obcaecati assumenda
+            in.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Assumenda esse quo cum voluptatem, quis eaque id eligendi adipisci
+            autem dolorem eum, vero reprehenderit. Minima modi nisi ducimus
+            minus doloremque aspernatur? Lorem Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ut, nobis deserunt neque cum aperiam,
+            error, reiciendis eaque alias aspernatur facilis non? Voluptatum,
+            vel! Ipsa nobis dolores cupiditate minima mollitia quo! ipsum dolor,
+            sit amet consectetur adipisicing elit. Exercitationem molestias,
+            explicabo
+          </p>
+          <h2>Renewed target</h2>
+          <p>
+            Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            ea natus quae laborum rem fugiat consequatur iusto ipsum amet nisi
+            necessitatibus accusantium, vero ipsam accusamus quis hic incidunt
+            sequi facere? ipsum dolor sit amet consectetur adipisicing elit.
+            Quos, quas.
+          </p>
+          <button class="btn btn-dark" type="button">Read more</button>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid rounded-3 w-100" src="./img/Image.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="container bg-dark text-white py-5"
+      style="background-color: #0f172a !important"
+    >
+      <div class="">
+        <div class="mb-4">
+          <h2 class="fs-4 fw-semibold d-flex align-items-center gap-2">
+            <span>🐾</span> Get in touch
+          </h2>
+          <hr class="border-secondary opacity-50" />
+        </div>
+
+        <div class="row g-4 align-items-center mb-5">
+          <div class="col-lg-6">
+            <div class="bg-white text-dark p-4 rounded-4 shadow-sm">
+              <form>
+                <div class="row g-3 mb-3">
+                  <div class="col-6">
+                    <label class="form-label small fw-semibold text-muted"
+                      >First name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      placeholder="First name"
+                    />
+                  </div>
+                  <div class="col-6">
+                    <label class="form-label small fw-semibold text-muted"
+                      >Last name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      placeholder="Last name"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label small fw-semibold text-muted"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm"
+                    placeholder="you@company.com"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label small fw-semibold text-muted"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control form-control-sm"
+                    rows="4"
+                    placeholder="Leave us a message..."
+                  ></textarea>
+                </div>
+
+                <div class="form-check mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="privacyCheck"
+                  />
+                  <label
+                    class="form-check-label small text-muted"
+                    for="privacyCheck"
+                  >
+                    You agree to our friendly
+                    <a href="#" class="text-decoration-underline text-muted"
+                      >privacy policy</a
+                    >.
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-dark w-100 py-2 rounded-3 fw-semibold"
+                  style="background-color: #1e293b"
+                >
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row g-4 ps-lg-4">
+              <div class="col-sm-6">
+                <div class="mb-2 fs-5">✉️</div>
+                <h6 class="fw-bold mb-1">Email</h6>
+                <p class="small text-secondary mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a
+                  href="mailto:hello@pawsnplay.com"
+                  class="small text-white text-decoration-none fw-semibold"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </div>
+
+              <div class="col-sm-6">
+                <div class="mb-2 fs-5">💬</div>
+                <h6 class="fw-bold mb-1">Live chat</h6>
+                <p class="small text-secondary mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <a
+                  href="#"
+                  class="small text-white text-decoration-none fw-semibold"
+                  >Lorem ipsum dolor sit amet</a
+                >
+              </div>
+
+              <div class="col-sm-6">
+                <div class="mb-2 fs-5">📍</div>
+                <h6 class="fw-bold mb-1">Office</h6>
+                <p class="small text-secondary mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="small fw-semibold mb-0">
+                  123,Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="mb-2 fs-5">📞</div>
+                <h6 class="fw-bold mb-1">Phone</h6>
+                <p class="small text-secondary mb-2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <p class="small fw-semibold mb-0">+000 00000 000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-secondary opacity-25 my-5" />
+
+        <div class="row align-items-center mb-5 g-3">
+          <div class="col-md-7">
+            <h6 class="fw-bold mb-1">Join our newsletter</h6>
+            <p class="small text-secondary mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+              eiusmod tempor.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <div class="d-flex gap-2">
+              <input
+                type="email"
+                class="form-control form-control-sm bg-secondary text-white border-0 bg-opacity-25"
+                placeholder="Enter your email"
+              />
+              <button class="btn btn-light btn-sm fw-semibold px-4">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mb-5">
+          <div class="col-lg-3 col-md-12">
+            <div class="fw-bold fs-5 mb-2">🐾 Paws n' Play</div>
+            <p class="small text-secondary pe-lg-3">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              nec odio. Praesent libero.
+            </p>
+          </div>
+
+          <div class="col-lg-9 col-md-12">
+            <div class="row g-3">
+              <div class="col-6 col-sm-4 col-md-2">
+                <h6 class="small text-secondary fw-semibold mb-3">Shop</h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-0">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Pet Adoption</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Nutrition</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Pet Care</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Pet Food</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Pricing</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-2">
+                <h6 class="small text-secondary fw-semibold mb-3">Company</h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-0">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >About us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Careers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Press</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >News</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-2">
+                <h6 class="small text-secondary fw-semibold mb-3">Services</h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-0">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Grooming</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Boarding</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Training</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Veterinary</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Support</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-2">
+                <h6 class="small text-secondary fw-semibold mb-3">Social</h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-0">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >LinkedIn</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Facebook</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >AngelList</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Dribbble</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-sm-4 col-md-2">
+                <h6 class="small text-secondary fw-semibold mb-3">Legal</h6>
+                <ul class="list-unstyled small d-flex flex-column gap-2 mb-0">
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Terms</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Privacy</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Cookies</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Licenses</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="text-white text-decoration-none opacity-75"
+                      >Settings</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
